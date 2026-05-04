@@ -849,6 +849,50 @@ section,
   line-height: 0;
 }
 
+.about .container {
+  max-width: 900px;
+}
+
+.about h5 {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.about h5 + p {
+  font-size: 17px;
+  color: var(--heading-color);
+}
+
+.about p {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.about p:last-child {
+  margin-top: 20px;
+  font-size: 16.5px;
+}
+
+#about.section {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+
+#about .section-title {
+  padding-bottom: 25px;
+}
+
+#about .section-title p {
+  margin-bottom: 0px;
+}
+
+#about .section-title h2 {
+  margin-bottom: 10px;
+}
+
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
