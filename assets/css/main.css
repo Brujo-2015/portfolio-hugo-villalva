@@ -1068,60 +1068,47 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
-.resume .resume-title {
-  color: var(--heading-color);
-  font-size: 26px;
-  font-weight: 700;
+
+.resume {
+  padding-bottom: 80px;
+}
+
+.resume .container {
+  max-width: 900px;
+}
+
+.resume h4 {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.resume h4:first-of-type {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
-  position: relative;
-}
-
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 10px;
-}
-
-.resume .resume-item h5 {
+.resume h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
   font-size: 16px;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.resume ul {
+  padding-left: 18px;
+}
+
+.resume ul li {
   margin-bottom: 10px;
+  line-height: 1.6;
 }
 
-.resume .resume-item ul {
-  padding-left: 20px;
+.resume ul li strong {
+  color: var(--heading-color);
 }
 
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: var(--background-color);
-  border: 2px solid var(--accent-color);
+.resume p {
+  line-height: 1.7;
 }
 
 /*--------------------------------------------------------------
