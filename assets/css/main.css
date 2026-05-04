@@ -722,15 +722,34 @@ section,
 }
 
 .hero h2 {
-  margin: 0;
+  margin: 0 0 18px 0;
   font-size: 48px;
   font-weight: 700;
 }
 
 .hero p {
-  margin: 10px 0 0 0;
-  font-size: 24px;
+  margin: 18px 0 28px 0;
+  font-size: 20px;
   color: var(--heading-color);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 5px;
+}
+
+.hero-buttons a {
+  opacity: 0.95;
+}
+
+.hero-buttons a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 .hero .btn-get-started {
@@ -745,12 +764,17 @@ section,
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin-top: 30px;
+  margin-top: 0px;
+  gap:18px;
+  min-width: 180px;
+  text-align: center;
 }
 
 .hero .btn-get-started:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, white 20%);
 }
+
+
 
 @media (max-width: 768px) {
   .hero h2 {
