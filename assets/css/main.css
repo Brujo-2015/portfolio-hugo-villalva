@@ -470,7 +470,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding: 40px 0;
+  padding: 40px 40px;
   position: relative;
 }
 
