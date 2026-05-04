@@ -787,6 +787,39 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Featured Projects
+--------------------------------------------------------------*/
+
+.project-card {
+  padding: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.project-card h4 {
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 .about .content h2 {
