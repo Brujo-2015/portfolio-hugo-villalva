@@ -1372,6 +1372,33 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.portfolio-category {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.project-card small {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  transform: translateX(2px);
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
