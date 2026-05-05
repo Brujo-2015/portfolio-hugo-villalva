@@ -938,6 +938,48 @@ section,
   margin-bottom: 10px;
 }
 
+.about-wrapper {
+  display: flex;
+  align-items: center;   
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.profile-photo {
+  max-width: 320px;
+}
+
+.about .container[data-aos-delay="100"] {
+  max-width: 900px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 350px;   /* 🔥 clave */
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-title {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.about-title h2 {
+  margin-bottom: 10px;
+}
+
+.about-title h2::after {
+  left: 0;
+  transform: none;
+  margin-left: 0;
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
